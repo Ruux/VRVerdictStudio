@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.VRVerdict.VRVerdictStudio"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-54
+19-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-67
+24-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-79
+25-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-76
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-71
+26-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-68
+27    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+27-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-80
+27-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-77
+28
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:36
+30        android:name="android.hardware.microphone"
+30-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-51
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33
+32    <uses-feature
+32-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-28:36
+33        android:name="android.hardware.touchscreen"
+33-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-52
+34        android:required="false" />
+34-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-33
+35    <uses-feature
+35-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-31:36
+36        android:name="android.hardware.touchscreen.multitouch"
+36-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-63
+37        android:required="false" />
+37-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33
+38    <uses-feature
+38-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-34:36
+39        android:name="android.hardware.touchscreen.multitouch.distinct"
+39-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-72
+40        android:required="false" />
+40-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-33
+41    <uses-feature
+41-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-38:31
+42        android:name="android.hardware.vr.headtracking"
+42-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-56
+43        android:required="true"
+43-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-32
+44        android:version="1" />
+44-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-28
+45
+46    <application
+46-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+47        android:debuggable="true"
+48        android:extractNativeLibs="true"
+48-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:18-50
+49        android:icon="@mipmap/app_icon"
+49-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+50        android:label="@string/app_name" >
+50-->C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+51        <activity
+51-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-65:20
+52            android:name="com.unity3d.player.UnityPlayerActivity"
+52-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-66
+53            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+53-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-114
+54            android:hardwareAccelerated="false"
+54-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-48
+55            android:launchMode="singleTask"
+55-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-44
+56            android:resizeableActivity="false"
+56-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-47
+57            android:screenOrientation="landscape"
+57-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-50
+58            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+58-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-77
+59            <intent-filter>
+59-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-54:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:17-69
+60-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:17-77
+62-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:27-74
+63                <category android:name="com.oculus.intent.category.VR" />
+63-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-74
+63-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:27-71
+64            </intent-filter>
+65
+66            <meta-data
+66-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-58:40
+67                android:name="unityplayer.UnityActivity"
+67-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:17-57
+68                android:value="true" />
+68-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-37
+69            <meta-data
+69-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-61:40
+70                android:name="android.notch_support"
+70-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-53
+71                android:value="true" />
+71-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:17-37
+72            <meta-data
+72-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-64:40
+73                android:name="com.oculus.vr.focusaware"
+73-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:17-56
+74                android:value="true" />
+74-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:17-37
+75        </activity>
+76
+77        <meta-data
+77-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:9-69:33
+78            android:name="unity.splash-mode"
+78-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-45
+79            android:value="0" />
+79-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-30
+80        <meta-data
+80-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:9-72:36
+81            android:name="unity.splash-enable"
+81-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-47
+82            android:value="True" />
+82-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-33
+83        <meta-data
+83-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:9-75:36
+84            android:name="unity.launch-fullscreen"
+84-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-51
+85            android:value="True" />
+85-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-33
+86        <meta-data
+86-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:9-78:37
+87            android:name="unity.allow-resizable-window"
+87-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-56
+88            android:value="False" />
+88-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-34
+89        <meta-data
+89-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:9-81:50
+90            android:name="notch.config"
+90-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-40
+91            android:value="portrait|landscape" />
+91-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-47
+92        <meta-data
+92-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:9-84:39
+93            android:name="com.samsung.android.vr.application.mode"
+93-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-67
+94            android:value="vr_only" />
+94-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-36
+95        <meta-data
+95-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:9-87:37
+96            android:name="com.unity.xr.oculus.LowOverheadMode"
+96-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-63
+97            android:value="false" />
+97-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:13-34
+98        <meta-data
+98-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:9-90:37
+99            android:name="com.unity.xr.oculus.LateLatching"
+99-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-60
+100            android:value="false" />
+100-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:13-34
+101        <meta-data
+101-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:9-93:37
+102            android:name="com.unity.xr.oculus.LateLatchingDebug"
+102-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-65
+103            android:value="false" />
+103-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:13-34
+104        <meta-data
+104-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:9-96:44
+105            android:name="com.oculus.supportedDevices"
+105-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-55
+106            android:value="quest|quest2" />
+106-->[:unityLibrary] C:\Users\evans\Desktop\Unity Learn\Projects\VR Verdict Studio\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-41
+107    </application>
+108
+109</manifest>
